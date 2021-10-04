@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" autocomplete="on" >
+        <label for="User Name"></label>
+        <input type="text" name="User Name" id="User Name" placeholder="User Name" required >
+        
+        <label for="Password"></label>
+        <input type="password" name="Password" id="Password" placeholder="Password" required>
+        <br><br>
+        <label for="file"></label>
+        <input type="file" name="file" id="file" multiple>
+        <br><br>
+        <input type="submit" value="send">
+    </form>
+    <hr>
+    <label for="courses"> courses :</label>
+    <select name="courses" id="courses">
+        <option value="python"> python</option>
+        <option value="php"> php</option>
+        <option value="js"> js</option>
+        <option value="c#">c#</option>
+    </select>
+    
+    <label for="courses"> courses :</label>
+    <select name="courses" id="courses">
+    <optgroup label="back end">
+        <option value="python"> python</option>
+        <option value="php"> php</option>
+        <option value="js"> js</option>
+        <option value="c#"> c#</option>
+    </optgroup>
+    <optgroup label="web desing">
+        <option value="web desing"> web desing</option>
+        <option value="html"> html</option>
+        <option value="css">css</option>
+    </optgroup>
+</select>
+<input list="sourses" >
+<datalist id="sourses">
+ <option value="python">
+<option value="php">
+ <option value="js">
+ <option value="c#">
+<option value="html">
+  <option value="css">
+</datalist>
+<br><br>
+<textarea  name="text" id="text" cols="70" rows="5" style="resize: none;" wrap="hard"> </textarea>
+<br>
+<input type="submit" onclick="alert('نظر شما با موفقیت ثبت شد')" value="Send">
+</body>
+</html>
